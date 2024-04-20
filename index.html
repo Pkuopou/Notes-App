@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Notes App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Simple Notes App</h1>
+
+  <form id="add-note-form">
+    <input type="text" id="note-title" placeholder="Title" required>
+    <textarea id="note-body" placeholder="Body" required></textarea>
+    <button type="submit">Add Note</button>
+  </form>
+
+  <!-- Tambahkan elemen <notes-list> di sini -->
+  <notes-list></notes-list>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
